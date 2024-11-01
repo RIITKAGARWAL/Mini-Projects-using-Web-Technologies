@@ -1,0 +1,44 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    }
+    
+    body{
+        height: 100%;
+        width: 100vw;
+        background-color: black;
+        color: white;
+    }
+    
+    .page1{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(246, 167, 65);
+        /* animation: slideup 2s ; */
+    }
+    /* 
+    @keyframes slideup{
+        from{
+            transform: translateY(100%);
+        }
+    } */
+    
+    
+    /* ----------background logo---------------- */
+    .background{
+        position : absolute;
+        top: 30%;
+        left: 5%;
+        color:aliceblue;
+        font-size: 16em;
+        font-weight: 700;
+    }
+
+    #F{
+        transform: rotateX(30deg);
+        transition: 300ms;
+        z-index: 1;
+    }
+    

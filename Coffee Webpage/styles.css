@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* animation: slideup 2s ; */
+}
+
+#home {
+    position: relative;
+
+}
+
+#about {
+    background-color: rgb(49, 7, 236);
+
+
+}
+
+#menu {
+    background-color: rgb(249, 14, 22);
+
+}
+
+#contact {
+    background-color: rgb(224, 248, 13);
+
+}
+
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+
+
+/* ----------background logo---------------- */
+.background {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(162, 48, 22);
+
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background h1{
+    position: absolute;
+    color: rgb(224, 242, 165);
+    font-size: 16em;
+    font-weight: 700;
+}
+
+.background img {
+
+   position: absolute;
+   filter: drop-shadow(2px 2px 10px black);
+}
+
+
+#coffee-can{
+    width: 20vw;
+    z-index: 3;
+}
+
+
+
+    #coffee-bean1 {
+        top: 197px;
+        left: 119px;
+        transform: rotate(20deg);
+        width: 8%;
+
+    }
+
+
+#coffee-bean2{
+    top: 560px;
+    left: 1000px;
+    transform: rotate(50deg);
+    width: 8%;
+
+}
+
+#coffee-bean3{
+    top: 448px;
+    left: 500px;
+    z-index: 4;
+    width: 8%;
+
+
+    transform: rotate(20deg);
+}
+
+#coffee-bean4{
+    top: 500px;
+    left: 900px;
+    width: 8%;
+
+    transform: rotate(74deg);
+}
+
+#coffee-bean5{
+    top: 450px;
+    left: 0;
+    width: 8%;
+
+    z-index:4;
+    transform: rotate(121deg);
+}
+#coffee-bean6{
+    z-index: 2;
+    top: 60px;
+    left: 940px;
+    width: 8%;
+
+    transform: rotate(20deg);
+}
+
+#coffee-bean7{
+    top: 200px;
+    left: 780px;
+    width: 8%;
+
+    z-index: 4;
+    transform: rotate(219deg)
+}
+
+#coffee-bean8{
+    top: 370px;
+    width: 8%;
+
+    left: 257px;
+    transform: rotate(-100deg);
+}
+
+
+/* -----------------about----------------------- */
+.about{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+width: 30%;
+height: 70vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 40px;
+
+}
+
+.card div{
+    height:95%;
+    width: 90%;
+    position: relative;
+    border-radius: 10%;
+    background-color: bisque;
+    filter: drop-shadow(2px 2px 10px black);
+
+
+}
+.content{
+    width: 70%;
+height: 70vh;
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 40px;
+font-size: 1.5em;
+}
+
+.menu{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coffee-can1{
+    top: -95px;
+    left: -10px;
+    width: 108%;
+    z-index: 13;
+    position: absolute;
+}
+
+
+
+#coffee-can3{
+    left: 40px;
+    top: -52px;
+    width: 70%;
+    z-index: 13;
+    position: absolute;
+}
+#bean1{
+
+    transform: rotate(45deg);
+    top: 248px;
+    left: -74px;
+    width: 60%;
+    z-index: 4;
+    position: absolute;
+}
+
+
+
+
+
+#bean2{
+
+
+    transform: rotate(113deg);
+    top: 248px;
+    left: 160px;
+    width: 60%;
+    z-index: 4;
+    position: absolute;
+}
+
+.contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 45vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form{
+    padding: 40px;
+    height:100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    padding: 12px 8px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+}
+form textarea{
+    padding: 12px 8px;
+    margin-bottom: 1em;
+
+}
+#submit{
+    cursor:pointer;
+}
+
+hr{
+    width:80%;
+    margin-left: 50px;
+    position: relative;
+}
+.form h2{
+    
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    left: 235px;
+    top: 170px;
+    background-color: rgb(162, 48, 22);
+}
+
+#can1{
+opacity:0;
+width: 20vw;
+}
+#can3{
+opacity:0;
+width: 13vw;
+}

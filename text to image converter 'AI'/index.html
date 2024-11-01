@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Image Generator</title>
+    <link rel="shortcut icon" href="./picture/favicon" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Generate any image with the help of 'AI'</h1>
+            <div class="controls">
+                <input type="text" placeholder="Enter your Image Inspiration " name="" id="input">
+                <button type="button" id="sendButton">Turn Your Image Inspiration into the wonderful Image <img src="./svg/send_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg"/></button>
+                <button type="button">
+                <a href="./svg/image_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" download="" title="download" id="download">Download
+                    <img src="./svg/download_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="download">
+                </a></button>
+                <button type="button" id="reset">Reset <img src="./svg/reset_image_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg"/></button>
+            </div>
+        </div>
+        <div class="right">
+            <img id="img" src="./svg/image_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
