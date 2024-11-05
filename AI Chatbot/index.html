@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot| AI Assist</title>
+    <link rel="shortcut icon" href="./picture/favicon" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="chatbot-popup">
+
+        <!-- ------------chatbot header---------- -->
+        <div class="chat-header">
+            <div class="header-info">
+                <img src="./svg/chatbot.svg" title="logo" alt="chatbot-logo">
+                <h2 class="logo-text">Lets Chat with 'AI'</h2>
+            </div> 
+            <div>
+                <button class="close-button" id="wallpaper-parent" type="button" title="Add WallPaper">
+                    <input type="file" accept="images/*" name="" id="wallpaper" >
+
+                    <img class="close-button"
+                        src="svg/add_photo_alternate_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" alt="emoji"></button>
+                <button class="close-button" id="collapse-button" type="button" title="Collapse Window"><img class="close-button" src="./svg/dropdown.svg"
+                        alt="emoji"></button>
+            </div>
+        </div>
+ <!-- =================================================================== -->
+        <!-- ----------chatbot body----------- -->
+        <div class="chat-body">
+           
+           
+            <div class="message bot-message">
+                <img src="./svg/chatbot.svg" alt="chatbot-logo">
+                <div class="message-text">
+                    Hey there👋 <br />
+                    How can I help you today?
+
+                    <img class="speaker" src="./svg/campaign_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg" 
+                    title="speaker on" alt="">
+                </div>
+            </div>
+
+
+            <!-- ---------------------------Respond Dots-----------------------------------
+            <div class="message-text " id="respond" title ="responding...">
+                <span class="dot1">O</span>
+                <span class="dot2">O</span>
+                <span class="dot3">O</span>
+                <span class="dot4">O</span>
+                <span class="dot5">O</span>
+            </div> -->
+
+
+        </div>
+<!-- ================================================================ -->
+        <!-- --------chatbot footer--------------- -->
+        <div class="chat-footer">
+            <form action="#" class="chat-form">
+                <textarea placeholder="Enter Your Query" class="message-input"></textarea>
+                <div class="chat-controls" style="position:relative;">
+                    <button type="button" id="emoji-button" title="emoji"><img
+                            src="./svg/sentiment_satisfied_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt="emoji"></button>
+                    <button type="button" id="mic" title="microphone"><img id="mic-img" src="./svg/mic_28dp_WHITE_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt="mic"></button>
+
+
+                    <button type="button" class="image-button" title="attach photo">
+                        <input type="file" name="" accept="images/*" hidden id="image-input">
+                        <img src="./svg/attach_file_24dp_BLACK_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt="attach files"></button>
+                    <button type="submit" id="send" title="send"><img src="./svg/arrow_upward_24dp_BLACK_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt="send"></button>
+                            <div id ="emoji-div" style ="position:absolute;top:-400px;left:-200px; display:none">
+                                <emoji-picker></emoji-picker>
+                                <div class="emoji-display"></div>
+                            </div>
+                            
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
