@@ -5,6 +5,7 @@ Pick your favourite color is live at : https://pickyourfavoritecolor.netlify.app
 AI Text to Image Generator is live at: https://aifromtext2imagegenerator.netlify.app/ </br>
 The VidTube is live at : https://thevidtube.netlify.app/ </br>
 The FrontEnd Web Code Editor is live at : https://fendcodeeditor.netlify.app/ </br>
-smiley that tracks mouse is live at : https://smileymouse.netlify.app/
+smiley that tracks mouse is live at : https://smileymouse.netlify.app/ </br>
+my bootstrap5 7 designs is live at : https://riitkagarwal.github.io/bootstrap5/
 # Mini-Projects-using-Web-Technologies
 This repo is dedicated to my Web Technology based Mini-Projects.
