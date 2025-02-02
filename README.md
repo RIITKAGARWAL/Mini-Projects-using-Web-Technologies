@@ -9,3 +9,4 @@ This repo is dedicated to my Web Technology based Mini-Projects.</br>
 7> The FrontEnd Web Code Editor is live at : https://fendcodeeditor.netlify.app/ </br>
 8> smiley that tracks mouse is live at : https://smileymouse.netlify.app/ </br>
 9> my bootstrap5 7 designs is live at : https://riitkagarwal.github.io/bootstrap5/
+10> PortFolio Animated Design site is live at : https://animatedportfoliodesign.netlify.app/
