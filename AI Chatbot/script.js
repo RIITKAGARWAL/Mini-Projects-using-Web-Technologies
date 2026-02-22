@@ -1,3 +1,4 @@
+
 const textArea = document.querySelector(".message-input");
 let promptu = undefined;
 const sendButton = document.getElementById("send");
